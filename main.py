@@ -8,15 +8,30 @@ time.sleep(2)
 
 # pg.drag(100, 20, duration=0.5)
 
-# print(pg.position())
 
-# pg.click(1219, 74)
+
+# print(pg.position())
+# pg.click(799, 126)
 
 # pg.typewrite('itproger', 0.5)
 # pg.typewrite(["enter"])
 
+
+
 # pg.hotkey("winleft")
-# pg.typewrite("www.youtube.com\n", 0.5)
+# pg.typewrite("www.youtube.com\n", 0.2)
 # pg.typewrite("Music", 0.2)
 # pg.hotkey('winleft', 'up')
 # pg.hotkey('ctrl')
+
+
+# Модальне вікно
+# pg.alert('Some info message', 'Title message', button='Button text')
+# age = pg.prompt('Enter your age', 'Your age')
+# print(age)
+# pg.confirm('You are older than 18?', 'Are you sure?', ('Yes, older', 'No'))
+# pg.password('Enter you password', 'Password title')
+
+
+pg.screenshot("YourPic.png")
+print("Screenshot created")
