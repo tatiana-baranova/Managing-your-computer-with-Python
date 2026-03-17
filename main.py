@@ -1,6 +1,6 @@
 import pyautogui as pg
 import time
-time.sleep(2)
+time.sleep(2)  
 
 # pg.moveTo(200, 300, 0.5)
 
